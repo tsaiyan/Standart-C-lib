@@ -22,7 +22,7 @@ void	ft_putnbr_fd(int n, int fd)
 		res = n * -1;
 	}
 	else
-		res = n;
+		res = (unsigned)n;
 	if (res >= 10)
 		ft_putnbr_fd(res / 10, fd);
 	ft_putchar_fd(res % 10 + 48, fd);
