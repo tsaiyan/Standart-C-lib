@@ -28,7 +28,6 @@
 		974CB577255D96A00027AB2B /* ft_toupper.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB549255D969E0027AB2B /* ft_toupper.c */; };
 		974CB578255D96A00027AB2B /* ft_substr.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB54A255D969E0027AB2B /* ft_substr.c */; };
 		974CB579255D96A00027AB2B /* ft_lstlast.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB54C255D969E0027AB2B /* ft_lstlast.c */; };
-		974CB57A255D96A00027AB2B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB54D255D969E0027AB2B /* main.c */; };
 		974CB57B255D96A00027AB2B /* ft_strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB54E255D969E0027AB2B /* ft_strlcat.c */; };
 		974CB57C255D96A00027AB2B /* ft_memmove.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB54F255D969E0027AB2B /* ft_memmove.c */; };
 		974CB57D255D96A00027AB2B /* ft_isascii.c in Sources */ = {isa = PBXBuildFile; fileRef = 974CB550255D969E0027AB2B /* ft_isascii.c */; };
@@ -67,7 +66,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		974CB532255D96700027AB2B /* libft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = libft; path = /Users/tsaiyan/libft/build/Debug/libft; sourceTree = "<absolute>"; };
 		974CB533255D969E0027AB2B /* ft_lstadd_front.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_lstadd_front.c; sourceTree = "<group>"; };
 		974CB534255D969E0027AB2B /* ft_lstmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_lstmap.c; sourceTree = "<group>"; };
 		974CB535255D969E0027AB2B /* ft_bzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_bzero.c; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 		974CB54A255D969E0027AB2B /* ft_substr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_substr.c; sourceTree = "<group>"; };
 		974CB54B255D969E0027AB2B /* libft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libft.h; sourceTree = "<group>"; };
 		974CB54C255D969E0027AB2B /* ft_lstlast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_lstlast.c; sourceTree = "<group>"; };
-		974CB54D255D969E0027AB2B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		974CB54E255D969E0027AB2B /* ft_strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_strlcat.c; sourceTree = "<group>"; };
 		974CB54F255D969E0027AB2B /* ft_memmove.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_memmove.c; sourceTree = "<group>"; };
 		974CB550255D969E0027AB2B /* ft_isascii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_isascii.c; sourceTree = "<group>"; };
@@ -115,6 +112,7 @@
 		974CB562255D96A00027AB2B /* ft_strrchr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_strrchr.c; sourceTree = "<group>"; };
 		974CB563255D96A00027AB2B /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		974CB564255D96A00027AB2B /* ft_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ft_split.c; sourceTree = "<group>"; };
+		978369F62561371600C10156 /* libft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libft; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +179,8 @@
 				974CB549255D969E0027AB2B /* ft_toupper.c */,
 				974CB54B255D969E0027AB2B /* libft.h */,
 				974CB543255D969E0027AB2B /* libft.xcodeproj */,
-				974CB54D255D969E0027AB2B /* main.c */,
 				974CB563255D96A00027AB2B /* Makefile */,
+				978369F62561371600C10156 /* libft */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,7 +201,7 @@
 			);
 			name = libft;
 			productName = libft;
-			productReference = 974CB532255D96700027AB2B /* libft */;
+			productReference = 978369F62561371600C10156 /* libft */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +265,6 @@
 				974CB590255D96A00027AB2B /* Makefile in Sources */,
 				974CB58C255D96A00027AB2B /* ft_memcmp.c in Sources */,
 				974CB570255D96A00027AB2B /* ft_isalnum.c in Sources */,
-				974CB57A255D96A00027AB2B /* main.c in Sources */,
 				974CB580255D96A00027AB2B /* ft_strmapi.c in Sources */,
 				974CB567255D96A00027AB2B /* ft_bzero.c in Sources */,
 				974CB58D255D96A00027AB2B /* ft_putchar_fd.c in Sources */,
