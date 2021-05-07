@@ -1,5 +1,5 @@
 First project in main studying in School 21 / Ecole 42.<br/>
-The task is reproduce base functions on C..<br/>
+The task is reproduce base functions on C.<br/>
 
 Functions written with 42 Norm if code style. .<br/>
 The keys of this standart are:.<br/>
